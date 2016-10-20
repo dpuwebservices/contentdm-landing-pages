@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Lora:400,400italic);
+ 
+#nav_top {
+height: 26px;
+width: 100%;
+background-color: #ffffff;
+border: none;
+border-width: none;
+overflow: hidden;
+}
+
+/*left navigation links*/
+
+#nav_top_left>ul.nav li a {
+font-family: 'Lora', serif;font-size:12px;
+font-size: 12px;
+  	padding: 10px 28px 5px 5px;
+    text-decoration: none; 
+    color: #3d5f96;
+    font-weight: regular;
+border-right: none;
+}
+
+#nav_top_left>ul.nav li a:hover {
+	background-color:#A2B7D9;
+	color: #fff;	
+}
+
+#nav_top_left>ul.nav li a, #nav_top_left_spacer {
+height: 26px;
+background-color: #ffffff;
+letter-spacing: 0.3px;
+float: left;
+}
+
+#nav_top_left ul.nav li a.selected {
+background-color: #ffffff;
+color: #3d5f96;
+text-decoration: none;
+}
+
+/* Right navigation links */
+#nav_top_right {
+float: right;
+padding: 10px 5px;
+position: absolute;
+right: 65px;
+top: 5px;
+}
+
+.nav_li_right_1 {
+font-size: 12px;
+font-family: 'Lora', serif;
+color: #3d5f96;
+background-color: #ffffff;
+}
+
+.nav_li_right_1 a {
+font-family: 'Lora', serif;
+color: #3d5f96;
+background-color: #ffffff;
+}
+
+#nav_top_right>ul.nav li a {
+color: #3d5f96;
+}
