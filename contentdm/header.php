@@ -320,7 +320,7 @@ $(document).ready(function(e){
 
 
 
-                            <li><a href="http://dpuspecialcollections.omeka.net/">Exhibits</a></li>
+                            <li><a href="http://dpuspecialcollections.omeka.net/exhibits">Exhibits</a></li>
 
 
 
