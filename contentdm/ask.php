@@ -80,7 +80,7 @@
 
 
 
-                        <div class="col-1-2"><img class="centered" src="http://libservices-test.org//contentdm/images/ask/ByPhone.png"/>
+                        <div class="col-1-2"><img class="centered" src="http://libservices.org/contentdm/images/ask/ByPhone.png"/>
 
 
 
@@ -195,7 +195,7 @@
 
 
 
-                        <div class="col-1-2"><img class="centered" src="http://libservices-test.org//contentdm/images/ask/ByEmail.png"/></a>
+                        <div class="col-1-2"><img class="centered" src="http://libservices.org/contentdm/images/ask/ByEmail.png"/></a>
 
 
 
@@ -262,7 +262,7 @@
 
 
                              <div class="caption">
-                               <div class="col-1-2"><img src="http://libservices-test.org//contentdm/images/ask/ByText.png" alt="" class="centered"/></a> </div>
+                               <div class="col-1-2"><img src="http://libservices.org/contentdm/images/ask/ByText.png" alt="" class="centered"/></a> </div>
                                <div class="col-1-2">
                                  <div class="caption"><h1> By Text</h1>
                                    <p>Text a Librarian at (773) 649-3148</p>
@@ -274,7 +274,7 @@
 
 
                        <div class="caption">
-                               <div class="col-1-2"><img src="http://libservices-test.org//contentdm/images/ask/Makeanappoinment.png" alt="" class="centered"/></a> </div>
+                               <div class="col-1-2"><img src="http://libservices.org/contentdm/images/ask/Makeanappoinment.png" alt="" class="centered"/></a> </div>
                                <div class="col-1-2">
                                  <div class="caption"><h1>Research Consultations</h1>
                                    <p><a href="https://depaul.libcal.com/scheduler.php?u=13122&t=Make%20an%20appointment">Make an appointment</a> for in-depth help. Individuals and small groups welcome.</p>
@@ -292,7 +292,7 @@
                              
    
                                  <div class="caption">
-                               <div class="col-1-2"><img src="http://libservices-test.org//contentdm/images/ask/FAQ.png" alt="" class="centered"/> </div>
+                               <div class="col-1-2"><img src="http://libservices.org/contentdm/images/ask/FAQ.png" alt="" class="centered"/> </div>
                                <div class="col-1-2">
                                  <div class="caption"><h1><a href="http://depaul.libanswers.com/">FAQ</a></h1>
                                    <p>Get answers to frequently asked questions - anytime, anyplace.</p>
