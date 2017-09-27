@@ -384,37 +384,9 @@ var $accui = jQuery.noConflict(true);// $accui replaces all $ to avoid conflicts
 
                         <p class="para">The majority of the materials collected here are holy cards, which, in the Catholic tradition, are small, religious pictures roughly the size of a playing card. The reverse sometimes contains a prayer or other devotional text. These cards, which depict a Catholic saint or religious scene, are often blessed by priests for the use by the faithful. The creation, circulation, and use of these cards is an important part of the material culture of Roman Catholics. Other collectable devotional cards, including early examples of religious trading and collectable cards, are also featured in this collection.</p>
 
-                        <p class="para">For more information about this collection, or the Vincentian Studies Collection, please contact DePaul University Libraries Vincentian Librarian. <br><br>
-
-                          
-
-                          
-
-                          
-
-                          Andrew Rea<br>
-
-                          
-
-                          
-
-                          
-
-                          Vincentian Collections Librarian<br>
-
-                          
-
-                          
-
-                          
-
-                          Email Me :<a href="mailto:area1@depaul.edu">area1@depaul.edu</a></p> 
-
-
-
-
-
-
+                        <p class="para">
+                            For more information about the Vincentian Studies Collection, please visit our research guide.
+                        </p>
 
 						<?php include'recentbox/recentbox-image-and-title.php'?> 
 

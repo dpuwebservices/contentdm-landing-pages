@@ -170,7 +170,7 @@ $(document).ready(function(e){
 
 
 
-              <area shape="rect" coords="16,32,176,145" href="http://www.library.depaul.edu" target="_self" />
+              <area shape="rect" coords="0,0,176,145" href="https://library.depaul.edu/" target="_self" />
 
 
 
