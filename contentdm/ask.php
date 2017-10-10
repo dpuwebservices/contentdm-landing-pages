@@ -30,7 +30,7 @@
               </div>
               <div class="col-1-2">
                 <div class="caption">
-                  <a href="#" onclick="window.open(	'http://depaul.libanswers.com/askr.php?i=680&amp;header=Email%20a%20Librarian&amp;uri=http%3A%2F%2Flibguides.depaul.edu%2Faecontent.php%3Fpid%3D386628%26sid%3D3172275%23','popUpWindow','height=700,width=800,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')">
+                  <a href="#" onclick="window.open(	'http://libguides.depaul.edu/askspca')">
                     <h1>By Email</h1>
                   </a>
                   <p>Ask a Librarian services are available to all students, faculty, staff and alumni of DePaul University. We will also answer questions from the general public that are directly related to the University or DePaul Libraries' collections and services.</p>
