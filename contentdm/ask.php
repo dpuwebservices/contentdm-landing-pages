@@ -79,8 +79,7 @@
           <div id='api_box_iid674_bid16224820'>
             <div class="bi_text"></div>
             <h2>IM a librarian</h2>
-            <p>&nbsp;</p>
-            <a href="#" onclick="window.open('http://libraryh3lp.com/chat/dpulibrarian@chat.libraryh3lp.com?skin=22365&amp;theme=flat-chat-bubbles&amp;title=Ask%20a%20Librarian&amp;identity=dpulibrarian#','AskWindow', 'toolbar=no, directories=no,location=no, status=yes, menubar=no, resizable=no, scrollbars=yes, width=300,height=400'); return false" target="_blank" alt="Chat with a librarian"><img src="http://libguides.depaul.edu/loader.php?type=d&amp;id=940990" style="top: -1px; margin-top: -5px; display: block; margin-left: auto; margin-right: auto;" border="0" height="41px;" width="200px;"></a>                        
+            <p><a href="https://library.depaul.edu/get-help/ask-a-librarian/Pages/default.aspx#chat">Go to chat</a></p>                        
             <p>Please note that texts and IM are best for brief, basic questions. Submit more complex, research strategy-type questions via the email link above or stop by any reference desk</p>
           </div>
           <?php ?>  
