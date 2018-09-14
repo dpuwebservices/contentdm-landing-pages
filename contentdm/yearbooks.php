@@ -134,7 +134,7 @@
 
 
 
-					<?php include 'featurebox/heritage/alumni-1966-featurebox3.php'?> 
+					<?php include 'featurebox/heritage/alumni-1968-featurebox3.php'?> 
 
 
 
