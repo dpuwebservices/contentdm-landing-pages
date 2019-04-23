@@ -290,6 +290,7 @@ $(document).ready(function(e){
 
                              <li><a href="http://digicol.lib.depaul.edu/cdm/landingpage/collection/younglords">Young Lords</a></li>
 
+                             <li><a href="digicol.lib.depaul.edu/cdm/landingpage/collection/p16106coll10">Deborah Bright Photographs</a></li>
 
 
                             <li><a href="http://digicol.lib.depaul.edu/cdm/landingpage/collection/lpnc6">Lincoln Park Neighborhood Collection</a></li>
