@@ -12,7 +12,7 @@
                
 
 
-                        <div class="col-1-2"> <a href="http://digicol.lib.depaul.edu/cdm/compoundobject/collection/p16106coll9/id/10/rec/1"><img class="centered" src="http://libservices-test.org/contentdm/images/vincentian/letters.PNG"/></a>
+                        <div class="col-1-2"> <a href="http://digicol.lib.depaul.edu/cdm/compoundobject/collection/p16106coll9/id/10/rec/1"><img class="centered" src="http://libservices.org/contentdm/images/vincentian/letters.PNG"/></a>
 
 
                         	
@@ -48,7 +48,7 @@
                     	
 
 
-                        <div class="col-1-2"> <a href="http://digicol.lib.depaul.edu/cdm/compoundobject/collection/depaul01/id/13982/rec/5"><img class="centered" src="http://libservices-test.org/contentdm/images/vincentian/tome01.PNG"/></a>
+                        <div class="col-1-2"> <a href="http://digicol.lib.depaul.edu/cdm/compoundobject/collection/depaul01/id/13982/rec/5"><img class="centered" src="http://libservices.org/contentdm/images/vincentian/tome01.PNG"/></a>
 
 
                         	
@@ -84,7 +84,7 @@
                     	
 
 
-                        <div class="col-1-2"> <a href="http://digicol.lib.depaul.edu/cdm/compoundobject/collection/depaul01/id/13314/rec/34"><img class="centered" src="http://libservices-test.org/contentdm/images/vincentian/writings.PNG"/></a>
+                        <div class="col-1-2"> <a href="http://digicol.lib.depaul.edu/cdm/compoundobject/collection/depaul01/id/13314/rec/34"><img class="centered" src="http://libservices.org/contentdm/images/vincentian/writings.PNG"/></a>
 
 
                         	
