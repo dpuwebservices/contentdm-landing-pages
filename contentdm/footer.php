@@ -1,11 +1,11 @@
     	<div class="footer">
         <p class="socialmedia">
         <a href="https://www.facebook.com/dpulibraries">
-       <img src="http://libservices-test.org/contentdm/images/facebook.svg" />
+       <img src="http://libservices.org/contentdm/images/facebook.svg" />
        
        </a>
        
-       <a href="https://twitter.com/intent/follow?screen_name=dpulibrarian"><img src="http://libservices-test.org/contentdm/images/twitter.svg" /></a>
+       <a href="https://twitter.com/intent/follow?screen_name=dpulibrarian"><img src="http://libservices.org/contentdm/images/twitter.svg" /></a>
         </p>
         <ul class="bottom-links">
             <a class="link-no-decoration bottom-links" href="mailto:dpu.webservices@gmail.com">Contact Us</a>    
