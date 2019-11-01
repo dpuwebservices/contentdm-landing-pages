@@ -7,6 +7,7 @@ $medBlue: #2178B5;
 $darkBlue: #385f8a;
 $white: #ffffff;
 $lightGrey: #cccccc;
+$exLightGrey: #f5f5f5;
 
 body, html {
 	font-family: $fontFam;
@@ -125,7 +126,7 @@ a#filter-by-collection-cancel-button {
 .open>.dropdown-toggle.headerIconButton:focus,
 .open>.dropdown-toggle.headerIconButton:hover {
 	color: $darkBlue;
-	background-color: #f5f5f5;
+	background-color: $exLightGrey;
 }
 
 .cdm-footer a:visited {
@@ -139,7 +140,7 @@ a#filter-by-collection-cancel-button {
 a.headerIcon,
 a.SimpleSearch-headerAdvancedSearchButtonLink:visited,
 a.SimpleSearch-headerAdvancedSearchButtonLink {
-	color: #f5f5f5;
+	color: $exLightGrey;
 }
 
 .pagination>.active>a,
