@@ -8,6 +8,7 @@ $darkBlue: #385f8a;
 $white: #ffffff;
 $lightGrey: #cccccc;
 $exLightGrey: #f5f5f5;
+$purple: #609;
 
 body, html {
 	font-family: $fontFam;
@@ -71,7 +72,7 @@ a#filter-by-collection-cancel-button {
 
 a:visited,
 a#filter-by-collection-cancel-button {
-	color: #609;
+	color: $purple;
 }
 
 .search-clear-query-button {
@@ -79,7 +80,7 @@ a#filter-by-collection-cancel-button {
 }
 
 .f-dropdown li a {
-	color: #434343;
+	color: $darkGrey;
 	font-weight: 700;
 }
 
