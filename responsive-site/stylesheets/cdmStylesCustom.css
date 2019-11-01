@@ -1,11 +1,12 @@
-/* line 3, ../scss/cdmStylesCustom.scss */
-body {
+/*VARIABLES*/
+/* line 6, ../scss/cdmStylesCustom.scss */
+body, html {
   font-family: "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;
   color: #545454;
   font-style: normal;
 }
 
-/* line 9, ../scss/cdmStylesCustom.scss */
+/* line 12, ../scss/cdmStylesCustom.scss */
 body,
 p,
 ul,
@@ -16,9 +17,8 @@ div {
   font-size: .75rem;
 }
 
-/* line 19, ../scss/cdmStylesCustom.scss */
+/* line 22, ../scss/cdmStylesCustom.scss */
 h1 {
-  font-family: "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;
   font-size: 1.125rem;
   font-weight: bold;
   color: #545454;
@@ -26,12 +26,11 @@ h1 {
   text-decoration: none;
 }
 
-/* line 28, ../scss/cdmStylesCustom.scss */
+/* line 30, ../scss/cdmStylesCustom.scss */
 h2,
 h2 a,
 h2 a:hover,
 h2 a:visited {
-  font-family: "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;
   font-size: 1.0rem;
   font-weight: bold;
   color: #2178B5;
@@ -39,9 +38,8 @@ h2 a:visited {
   text-decoration: none;
 }
 
-/* line 40, ../scss/cdmStylesCustom.scss */
+/* line 41, ../scss/cdmStylesCustom.scss */
 h3 {
-  font-family: "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;
   font-size: 0.875rem;
   font-weight: normal;
   color: #545454;
@@ -49,10 +47,9 @@ h3 {
   text-decoration: none;
 }
 
-/* line 49, ../scss/cdmStylesCustom.scss */
+/* line 50, ../scss/cdmStylesCustom.scss */
 a,
 a#filter-by-collection-cancel-button {
-  font-family: "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;
   font-size: .75rem;
   font-weight: normal;
   color: #2178b5;
@@ -60,56 +57,55 @@ a#filter-by-collection-cancel-button {
   text-decoration: none;
 }
 
-/* line 59, ../scss/cdmStylesCustom.scss */
+/* line 60, ../scss/cdmStylesCustom.scss */
 a:hover,
 a#filter-by-collection-cancel-button {
   color: #2178B5;
   text-decoration: underline;
 }
 
-/* line 65, ../scss/cdmStylesCustom.scss */
+/* line 66, ../scss/cdmStylesCustom.scss */
 a:visited,
 a#filter-by-collection-cancel-button {
   color: #609;
 }
 
-/* line 70, ../scss/cdmStylesCustom.scss */
+/* line 71, ../scss/cdmStylesCustom.scss */
 .search-clear-query-button {
   color: #CCC;
 }
 
-/* line 74, ../scss/cdmStylesCustom.scss */
+/* line 75, ../scss/cdmStylesCustom.scss */
 .f-dropdown li a {
   color: #434343;
   font-weight: 700;
 }
 
-/* line 79, ../scss/cdmStylesCustom.scss */
+/* line 80, ../scss/cdmStylesCustom.scss */
 .navbar-default {
   background-color: #385f8a;
 }
 
-/* line 83, ../scss/cdmStylesCustom.scss */
+/* line 84, ../scss/cdmStylesCustom.scss */
 .header-text {
   color: #fff;
   font-size: 1.125rem;
 }
 
-/* line 88, ../scss/cdmStylesCustom.scss */
+/* line 89, ../scss/cdmStylesCustom.scss */
 .cdm-btn.btn-primary,
 .cdm-btn.btn-default:hover {
   background-color: #2178B5;
   color: #fff;
 }
 
-/* line 94, ../scss/cdmStylesCustom.scss */
+/* line 95, ../scss/cdmStylesCustom.scss */
 .cdm-btn {
-  font-family: "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;
   font-size: .75rem;
   font-weight: normal;
 }
 
-/* line 100, ../scss/cdmStylesCustom.scss */
+/* line 101, ../scss/cdmStylesCustom.scss */
 .cdm-btn.btn-primary:focus,
 .cdm-btn.btn-primary:hover,
 .cdm-btn.btn-primary:active,
@@ -119,7 +115,7 @@ a#filter-by-collection-cancel-button {
   color: #545454;
 }
 
-/* line 109, ../scss/cdmStylesCustom.scss */
+/* line 110, ../scss/cdmStylesCustom.scss */
 .headerIconButton:active:hover,
 .headerIconButton:active:focus,
 .headerIconButton:hover,
@@ -136,24 +132,24 @@ a#filter-by-collection-cancel-button {
   background-color: #f5f5f5;
 }
 
-/* line 125, ../scss/cdmStylesCustom.scss */
+/* line 126, ../scss/cdmStylesCustom.scss */
 .cdm-footer a:visited {
   color: #2178b5;
 }
 
-/* line 129, ../scss/cdmStylesCustom.scss */
+/* line 130, ../scss/cdmStylesCustom.scss */
 .cdm-footer a:hover {
   color: #2178B5;
 }
 
-/* line 133, ../scss/cdmStylesCustom.scss */
+/* line 134, ../scss/cdmStylesCustom.scss */
 a.headerIcon,
 a.SimpleSearch-headerAdvancedSearchButtonLink:visited,
 a.SimpleSearch-headerAdvancedSearchButtonLink {
   color: #f5f5f5;
 }
 
-/* line 139, ../scss/cdmStylesCustom.scss */
+/* line 140, ../scss/cdmStylesCustom.scss */
 .pagination > .active > a,
 .pagination > .active > a:hover,
 .pagination > li > a:hover,

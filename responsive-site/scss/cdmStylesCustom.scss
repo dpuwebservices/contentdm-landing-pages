@@ -1,7 +1,10 @@
 
+/*VARIABLES*/
 
-body {
-	font-family: "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;
+$fontFam: 'Helvetica Neue', Arial, Helvetica, Verdana, sans-serif;
+
+body, html {
+	font-family: $fontFam;
 	color: #545454;
 	font-style: normal;
 }
@@ -17,7 +20,6 @@ div {
 }
 
 h1 {
-	font-family: "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;
 	font-size: 1.125rem;
 	font-weight: bold;
 	color: #545454;
@@ -29,7 +31,6 @@ h2,
 h2 a,
 h2 a:hover,
 h2 a:visited {
-	font-family: "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;
 	font-size: 1.0rem;
 	font-weight: bold;
 	color: #2178B5;
@@ -38,7 +39,7 @@ h2 a:visited {
 }
 
 h3 {
-	font-family: "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;
+
 	font-size: 0.875rem;
 	font-weight: normal;
 	color: #545454;
@@ -48,7 +49,7 @@ h3 {
 
 a,
 a#filter-by-collection-cancel-button {
-	font-family: "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;
+
 	font-size: .75rem;
 	font-weight: normal;
 	color: #2178b5;
@@ -92,7 +93,7 @@ a#filter-by-collection-cancel-button {
 }
 
 .cdm-btn {
-	font-family: "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;
+
 	font-size: .75rem;
 	font-weight: normal;
 }
