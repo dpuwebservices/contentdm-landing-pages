@@ -4,6 +4,7 @@
 $fontFam: 'Helvetica Neue', Arial, Helvetica, Verdana, sans-serif;
 $darkGrey: #545454;
 $medBlue: #2178B5;
+$darkBlue: #385f8a;
 $white: #ffffff;
 $lightGrey: #cccccc;
 
@@ -82,7 +83,7 @@ a#filter-by-collection-cancel-button {
 }
 
 .navbar-default {
-	background-color: #385f8a;
+	background-color: $darkBlue;
 }
 
 .header-text {
@@ -123,7 +124,7 @@ a#filter-by-collection-cancel-button {
 .open.dropdown>.headerIconButton,
 .open>.dropdown-toggle.headerIconButton:focus,
 .open>.dropdown-toggle.headerIconButton:hover {
-	color: #385f8a;
+	color: $darkBlue;
 	background-color: #f5f5f5;
 }
 
