@@ -3,6 +3,7 @@
 
 $fontFam: 'Helvetica Neue', Arial, Helvetica, Verdana, sans-serif;
 $darkGrey: #545454;
+$medBlue: #2178B5;
 
 body, html {
 	font-family: $fontFam;
@@ -34,7 +35,7 @@ h2 a:hover,
 h2 a:visited {
 	font-size: 1.0rem;
 	font-weight: bold;
-	color: #2178B5;
+	color: $medBlue;
 	font-style: normal;
 	text-decoration: none;
 }
@@ -53,14 +54,14 @@ a#filter-by-collection-cancel-button {
 
 	font-size: .75rem;
 	font-weight: normal;
-	color: #2178b5;
+	color: $medBlue;
 	font-style: normal;
 	text-decoration: none;
 }
 
 a:hover,
 a#filter-by-collection-cancel-button {
-	color: #2178B5;
+	color: $medBlue;
 	text-decoration: underline;
 }
 
@@ -89,7 +90,7 @@ a#filter-by-collection-cancel-button {
 
 .cdm-btn.btn-primary,
 .cdm-btn.btn-default:hover {
-	background-color: #2178B5;
+	background-color: $medBlue;
 	color: #fff;
 }
 
@@ -125,11 +126,11 @@ a#filter-by-collection-cancel-button {
 }
 
 .cdm-footer a:visited {
-	color: #2178b5;
+	color: $medBlue;
 }
 
 .cdm-footer a:hover {
-	color: #2178B5;
+	color: $medBlue;
 }
 
 a.headerIcon,
@@ -146,6 +147,6 @@ a.SimpleSearch-headerAdvancedSearchButtonLink {
 .cdm-toggle-btn.btn-default:hover,
 .cdm-toggle-btn.btn-default:focus {
 	color: #fff;
-	background-color: #2178B5;
+	background-color: $medBlue;
 }
 
