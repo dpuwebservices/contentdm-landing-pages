@@ -4,6 +4,7 @@
 $fontFam: 'Helvetica Neue', Arial, Helvetica, Verdana, sans-serif;
 $darkGrey: #545454;
 $medBlue: #2178B5;
+$white: #ffffff;
 
 body, html {
 	font-family: $fontFam;
@@ -84,14 +85,14 @@ a#filter-by-collection-cancel-button {
 }
 
 .header-text {
-	color: #fff;
+	color: $white;
 	font-size: 1.125rem;
 }
 
 .cdm-btn.btn-primary,
 .cdm-btn.btn-default:hover {
 	background-color: $medBlue;
-	color: #fff;
+	color: $white;
 }
 
 .cdm-btn {
@@ -146,7 +147,7 @@ a.SimpleSearch-headerAdvancedSearchButtonLink {
 .cdm-toggle-btn.active:hover,
 .cdm-toggle-btn.btn-default:hover,
 .cdm-toggle-btn.btn-default:focus {
-	color: #fff;
+	color: $white;
 	background-color: $medBlue;
 }
 
