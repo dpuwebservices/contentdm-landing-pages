@@ -160,3 +160,39 @@ a.SimpleSearch-headerAdvancedSearchButtonLink {
 	background-color: $medBlue;
 }
 
+
+/*Add horizontal menu for desktop site -- from OCLC cookbook*/
+@media screen and (min-width: 768px) {
+
+	.Header-logoImage {
+		margin-top: 10px !important;
+		height: 80px;
+		width: auto;
+	}
+
+	.Header-controls {
+		width: 100%;
+		position: static;
+	}
+
+	.Header-hamburgerHolder {
+		float: left;
+	}
+
+	.Header-hamburgerHolder .btn-group button {
+		display: none;
+	}
+
+	.Header-headerMenuLinks {
+		position: static;
+		display: flex;
+		flex-wrap: nowrap;
+		border: none;
+		box-shadow: none;
+	}
+
+	.Header-headerMenuLinks h3 {
+		margin: 5px;
+	}
+
+}

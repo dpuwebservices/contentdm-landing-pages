@@ -164,3 +164,43 @@ a.SimpleSearch-headerAdvancedSearchButtonLink {
   color: #ffffff;
   background-color: #2178B5;
 }
+
+/*Add horizontal menu for desktop site -- from OCLC cookbook*/
+@media screen and (min-width: 768px) {
+  /* line 167, ../scss/cdmStylesCustom.scss */
+  .Header-logoImage {
+    margin-top: 10px !important;
+    height: 80px;
+    width: auto;
+  }
+
+  /* line 173, ../scss/cdmStylesCustom.scss */
+  .Header-controls {
+    width: 100%;
+    position: static;
+  }
+
+  /* line 178, ../scss/cdmStylesCustom.scss */
+  .Header-hamburgerHolder {
+    float: left;
+  }
+
+  /* line 182, ../scss/cdmStylesCustom.scss */
+  .Header-hamburgerHolder .btn-group button {
+    display: none;
+  }
+
+  /* line 186, ../scss/cdmStylesCustom.scss */
+  .Header-headerMenuLinks {
+    position: static;
+    display: flex;
+    flex-wrap: nowrap;
+    border: none;
+    box-shadow: none;
+  }
+
+  /* line 194, ../scss/cdmStylesCustom.scss */
+  .Header-headerMenuLinks h3 {
+    margin: 5px;
+  }
+}
