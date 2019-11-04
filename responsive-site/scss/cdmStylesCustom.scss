@@ -15,6 +15,10 @@ $lightGrey: #cccccc;
 $exLightGrey: #f5f5f5;
 $purple: #609;
 
+.Breadcrumbs-breadcrumbs {
+	display: flex;
+	}
+
 body, html {
 	font-family: $fontFam;
 	color: $darkGrey;

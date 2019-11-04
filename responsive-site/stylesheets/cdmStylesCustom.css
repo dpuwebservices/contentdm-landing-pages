@@ -4,13 +4,18 @@ standrad logo name
 */
 /*VARIABLES*/
 /* line 18, ../scss/cdmStylesCustom.scss */
+.Breadcrumbs-breadcrumbs {
+  display: flex;
+}
+
+/* line 22, ../scss/cdmStylesCustom.scss */
 body, html {
   font-family: "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;
   color: #545454;
   font-style: normal;
 }
 
-/* line 24, ../scss/cdmStylesCustom.scss */
+/* line 28, ../scss/cdmStylesCustom.scss */
 body,
 p,
 ul,
@@ -21,7 +26,7 @@ div {
   font-size: .75rem;
 }
 
-/* line 34, ../scss/cdmStylesCustom.scss */
+/* line 38, ../scss/cdmStylesCustom.scss */
 h1 {
   font-size: 1.125rem;
   font-weight: bold;
@@ -30,7 +35,7 @@ h1 {
   text-decoration: none;
 }
 
-/* line 42, ../scss/cdmStylesCustom.scss */
+/* line 46, ../scss/cdmStylesCustom.scss */
 h2,
 h2 a,
 h2 a:hover,
@@ -42,7 +47,7 @@ h2 a:visited {
   text-decoration: none;
 }
 
-/* line 53, ../scss/cdmStylesCustom.scss */
+/* line 57, ../scss/cdmStylesCustom.scss */
 h3 {
   font-size: 0.875rem;
   font-weight: normal;
@@ -51,7 +56,7 @@ h3 {
   text-decoration: none;
 }
 
-/* line 62, ../scss/cdmStylesCustom.scss */
+/* line 66, ../scss/cdmStylesCustom.scss */
 a,
 a#filter-by-collection-cancel-button {
   font-size: .75rem;
@@ -61,55 +66,55 @@ a#filter-by-collection-cancel-button {
   text-decoration: none;
 }
 
-/* line 72, ../scss/cdmStylesCustom.scss */
+/* line 76, ../scss/cdmStylesCustom.scss */
 a:hover,
 a#filter-by-collection-cancel-button {
   color: #2178B5;
   text-decoration: underline;
 }
 
-/* line 78, ../scss/cdmStylesCustom.scss */
+/* line 82, ../scss/cdmStylesCustom.scss */
 a:visited,
 a#filter-by-collection-cancel-button {
   color: #609;
 }
 
-/* line 83, ../scss/cdmStylesCustom.scss */
+/* line 87, ../scss/cdmStylesCustom.scss */
 .search-clear-query-button {
   color: #cccccc;
 }
 
-/* line 87, ../scss/cdmStylesCustom.scss */
+/* line 91, ../scss/cdmStylesCustom.scss */
 .f-dropdown li a {
   color: #545454;
   font-weight: 700;
 }
 
-/* line 92, ../scss/cdmStylesCustom.scss */
+/* line 96, ../scss/cdmStylesCustom.scss */
 .navbar-default {
   background-color: #385f8a;
 }
 
-/* line 96, ../scss/cdmStylesCustom.scss */
+/* line 100, ../scss/cdmStylesCustom.scss */
 .header-text {
   color: #ffffff;
   font-size: 1.125rem;
 }
 
-/* line 101, ../scss/cdmStylesCustom.scss */
+/* line 105, ../scss/cdmStylesCustom.scss */
 .cdm-btn.btn-primary,
 .cdm-btn.btn-default:hover {
   background-color: #2178B5;
   color: #ffffff;
 }
 
-/* line 107, ../scss/cdmStylesCustom.scss */
+/* line 111, ../scss/cdmStylesCustom.scss */
 .cdm-btn {
   font-size: .75rem;
   font-weight: normal;
 }
 
-/* line 113, ../scss/cdmStylesCustom.scss */
+/* line 117, ../scss/cdmStylesCustom.scss */
 .cdm-btn.btn-primary:focus,
 .cdm-btn.btn-primary:hover,
 .cdm-btn.btn-primary:active,
@@ -119,7 +124,7 @@ a#filter-by-collection-cancel-button {
   color: #545454;
 }
 
-/* line 122, ../scss/cdmStylesCustom.scss */
+/* line 126, ../scss/cdmStylesCustom.scss */
 .headerIconButton:active:hover,
 .headerIconButton:active:focus,
 .headerIconButton:hover,
@@ -136,24 +141,24 @@ a#filter-by-collection-cancel-button {
   background-color: #f5f5f5;
 }
 
-/* line 138, ../scss/cdmStylesCustom.scss */
+/* line 142, ../scss/cdmStylesCustom.scss */
 .cdm-footer a:visited {
   color: #2178B5;
 }
 
-/* line 142, ../scss/cdmStylesCustom.scss */
+/* line 146, ../scss/cdmStylesCustom.scss */
 .cdm-footer a:hover {
   color: #2178B5;
 }
 
-/* line 146, ../scss/cdmStylesCustom.scss */
+/* line 150, ../scss/cdmStylesCustom.scss */
 a.headerIcon,
 a.SimpleSearch-headerAdvancedSearchButtonLink:visited,
 a.SimpleSearch-headerAdvancedSearchButtonLink {
   color: #f5f5f5;
 }
 
-/* line 152, ../scss/cdmStylesCustom.scss */
+/* line 156, ../scss/cdmStylesCustom.scss */
 .pagination > .active > a,
 .pagination > .active > a:hover,
 .pagination > li > a:hover,
@@ -167,30 +172,30 @@ a.SimpleSearch-headerAdvancedSearchButtonLink {
 
 /*Add horizontal menu for desktop site -- from OCLC cookbook*/
 @media screen and (min-width: 768px) {
-  /* line 167, ../scss/cdmStylesCustom.scss */
+  /* line 171, ../scss/cdmStylesCustom.scss */
   .Header-logoImage {
     margin-top: 10px !important;
     height: 80px;
     width: auto;
   }
 
-  /* line 173, ../scss/cdmStylesCustom.scss */
+  /* line 177, ../scss/cdmStylesCustom.scss */
   .Header-controls {
     width: 100%;
     position: static;
   }
 
-  /* line 178, ../scss/cdmStylesCustom.scss */
+  /* line 182, ../scss/cdmStylesCustom.scss */
   .Header-hamburgerHolder {
     float: left;
   }
 
-  /* line 182, ../scss/cdmStylesCustom.scss */
+  /* line 186, ../scss/cdmStylesCustom.scss */
   .Header-hamburgerHolder .btn-group button {
     display: none;
   }
 
-  /* line 186, ../scss/cdmStylesCustom.scss */
+  /* line 190, ../scss/cdmStylesCustom.scss */
   .Header-headerMenuLinks {
     position: static;
     display: flex;
@@ -199,7 +204,7 @@ a.SimpleSearch-headerAdvancedSearchButtonLink {
     box-shadow: none;
   }
 
-  /* line 194, ../scss/cdmStylesCustom.scss */
+  /* line 198, ../scss/cdmStylesCustom.scss */
   .Header-headerMenuLinks h3 {
     margin: 5px;
   }
