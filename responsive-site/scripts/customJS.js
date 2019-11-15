@@ -1,0 +1,1 @@
+alert("customjs file loaded");
