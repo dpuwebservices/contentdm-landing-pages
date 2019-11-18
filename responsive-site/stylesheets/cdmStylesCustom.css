@@ -92,7 +92,7 @@ a#filter-by-collection-cancel-button {
 
 /* line 96, ../scss/cdmStylesCustom.scss */
 .navbar-default {
-  background-color: #385f8a;
+  background-color: #002641;
 }
 
 /* line 100, ../scss/cdmStylesCustom.scss */
@@ -137,7 +137,7 @@ a#filter-by-collection-cancel-button {
 .open.dropdown > .headerIconButton,
 .open > .dropdown-toggle.headerIconButton:focus,
 .open > .dropdown-toggle.headerIconButton:hover {
-  color: #385f8a;
+  color: #002641;
   background-color: #f5f5f5;
 }
 
