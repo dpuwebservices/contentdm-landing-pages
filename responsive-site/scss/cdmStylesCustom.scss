@@ -179,6 +179,10 @@ a.SimpleSearch-headerAdvancedSearchButtonLink {
 }
 /*Add horizontal menu for desktop site -- from OCLC cookbook*/
 @media screen and (min-width: 768px) {
+  
+  .Header-headerContainer.navbar-default{
+    background:url("https://files.dpulibrary.org/contentDM/background-image.png") repeat-x top left;
+  }
 
 	.Header-logoImage {
 		margin-top: 10px !important;

@@ -188,29 +188,34 @@ a.SimpleSearch-headerAdvancedSearchButtonLink {
 /*Add horizontal menu for desktop site -- from OCLC cookbook*/
 @media screen and (min-width: 768px) {
   /* line 183, ../scss/cdmStylesCustom.scss */
+  .Header-headerContainer.navbar-default {
+    background: url("https://files.dpulibrary.org/contentDM/background-image.png") repeat-x top left;
+  }
+
+  /* line 187, ../scss/cdmStylesCustom.scss */
   .Header-logoImage {
     margin-top: 10px !important;
     height: 80px;
     width: auto;
   }
 
-  /* line 189, ../scss/cdmStylesCustom.scss */
+  /* line 193, ../scss/cdmStylesCustom.scss */
   .Header-controls {
     width: 100%;
     position: static;
   }
 
-  /* line 194, ../scss/cdmStylesCustom.scss */
+  /* line 198, ../scss/cdmStylesCustom.scss */
   .Header-hamburgerHolder {
     float: left;
   }
 
-  /* line 198, ../scss/cdmStylesCustom.scss */
+  /* line 202, ../scss/cdmStylesCustom.scss */
   .Header-hamburgerHolder .btn-group button {
     display: none;
   }
 
-  /* line 202, ../scss/cdmStylesCustom.scss */
+  /* line 206, ../scss/cdmStylesCustom.scss */
   .Header-headerMenuLinks {
     position: static;
     display: flex;
@@ -219,7 +224,7 @@ a.SimpleSearch-headerAdvancedSearchButtonLink {
     box-shadow: none;
   }
 
-  /* line 210, ../scss/cdmStylesCustom.scss */
+  /* line 214, ../scss/cdmStylesCustom.scss */
   .Header-headerMenuLinks h3 {
     margin: 5px;
   }
