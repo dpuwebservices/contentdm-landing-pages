@@ -169,19 +169,11 @@ a.SimpleSearch-headerAdvancedSearchButtonLink {
 }
 
 
-.dropdown .btn-group, .Header-headerMenuLinks.dropdown-menu {
-  background:none;
-  .Header-headerMenuLinks a {
-    background:none;
-    color:white;
-  }
-  
-}
 /*Add horizontal menu for desktop site -- from OCLC cookbook*/
 @media screen and (min-width: 768px) {
   
   .Header-headerContainer.navbar-default{
-    background:url("https://files.dpulibrary.org/contentDM/background-image.png") repeat-x top left;
+    background:$darkBlue url("https://files.dpulibrary.org/contentDM/background-image.png") repeat-x top left;
   }
 
 	.Header-logoImage {
@@ -209,10 +201,20 @@ a.SimpleSearch-headerAdvancedSearchButtonLink {
 		flex-wrap: nowrap;
 		border: none;
 		box-shadow: none;
+    background:none!important;
+
+    li a, h3 {
+      color:white;
+    }    
 	}
+  
+
 
 	.Header-headerMenuLinks h3 {
 		margin: 5px;
 	}
-
+  
+  .Header-headerMenuLinks a{
+    background:none!important;
+  }
 }

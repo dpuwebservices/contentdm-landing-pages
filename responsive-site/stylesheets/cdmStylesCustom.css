@@ -175,57 +175,57 @@ a.SimpleSearch-headerAdvancedSearchButtonLink {
   background-color: #2178B5;
 }
 
-/* line 172, ../scss/cdmStylesCustom.scss */
-.dropdown .btn-group, .Header-headerMenuLinks.dropdown-menu {
-  background: none;
-}
-/* line 174, ../scss/cdmStylesCustom.scss */
-.dropdown .btn-group .Header-headerMenuLinks a, .Header-headerMenuLinks.dropdown-menu .Header-headerMenuLinks a {
-  background: none;
-  color: white;
-}
-
 /*Add horizontal menu for desktop site -- from OCLC cookbook*/
 @media screen and (min-width: 768px) {
-  /* line 183, ../scss/cdmStylesCustom.scss */
+  /* line 175, ../scss/cdmStylesCustom.scss */
   .Header-headerContainer.navbar-default {
-    background: url("https://files.dpulibrary.org/contentDM/background-image.png") repeat-x top left;
+    background: #132C6A url("https://files.dpulibrary.org/contentDM/background-image.png") repeat-x top left;
   }
 
-  /* line 187, ../scss/cdmStylesCustom.scss */
+  /* line 179, ../scss/cdmStylesCustom.scss */
   .Header-logoImage {
     margin-top: 10px !important;
     height: 80px;
     width: auto;
   }
 
-  /* line 193, ../scss/cdmStylesCustom.scss */
+  /* line 185, ../scss/cdmStylesCustom.scss */
   .Header-controls {
     width: 100%;
     position: static;
   }
 
-  /* line 198, ../scss/cdmStylesCustom.scss */
+  /* line 190, ../scss/cdmStylesCustom.scss */
   .Header-hamburgerHolder {
     float: left;
   }
 
-  /* line 202, ../scss/cdmStylesCustom.scss */
+  /* line 194, ../scss/cdmStylesCustom.scss */
   .Header-hamburgerHolder .btn-group button {
     display: none;
   }
 
-  /* line 206, ../scss/cdmStylesCustom.scss */
+  /* line 198, ../scss/cdmStylesCustom.scss */
   .Header-headerMenuLinks {
     position: static;
     display: flex;
     flex-wrap: nowrap;
     border: none;
     box-shadow: none;
+    background: none !important;
+  }
+  /* line 206, ../scss/cdmStylesCustom.scss */
+  .Header-headerMenuLinks li a, .Header-headerMenuLinks h3 {
+    color: white;
   }
 
-  /* line 214, ../scss/cdmStylesCustom.scss */
+  /* line 213, ../scss/cdmStylesCustom.scss */
   .Header-headerMenuLinks h3 {
     margin: 5px;
+  }
+
+  /* line 217, ../scss/cdmStylesCustom.scss */
+  .Header-headerMenuLinks a {
+    background: none !important;
   }
 }
