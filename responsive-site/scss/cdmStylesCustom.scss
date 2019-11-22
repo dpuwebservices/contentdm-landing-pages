@@ -169,6 +169,14 @@ a.SimpleSearch-headerAdvancedSearchButtonLink {
 }
 
 
+.dropdown .btn-group, .Header-headerMenuLinks.dropdown-menu {
+  background:none;
+  .Header-headerMenuLinks a {
+    background:none;
+    color:white;
+  }
+  
+}
 /*Add horizontal menu for desktop site -- from OCLC cookbook*/
 @media screen and (min-width: 768px) {
 
