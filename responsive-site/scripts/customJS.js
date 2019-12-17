@@ -1,10 +1,30 @@
-$(document).ready(function () {
-	if (jQuery) {
-		// jQuery is loaded  
-		alert("jQuery loaded!");
-	} else {
-		// jQuery is not loaded
-		alert("No JQuery");
-	}
-});
+'use strict';
+
+
+
+function checkPath(){
+  var curPath=window.location.pathname; 
+    var searchBox = document.getElementById('search-input');
+  
+  if (curPath.endsWith('digital/')==true){
+//    alert("on the home page");
+    searchBox.setAttribute("placeholder", "Search all collections");
+  }
+  else{
+    searchBox.setAttribute("placeholder", "Search this collection");
+  }
+}
+
+(function() {
+  
+  // need to add listener for when page changes
+  window.addEventListener('load', function () {
+    checkPath();
+  });
+  
+
+
+})();
+
+
 
