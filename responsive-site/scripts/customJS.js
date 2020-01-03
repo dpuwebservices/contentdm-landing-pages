@@ -17,11 +17,11 @@ function checkPath(){
 
 (function() {
   
-  // need to add listener for when page changes
-  window.addEventListener('load', function () {
-    checkPath();
-  });
-  
+//  // need to add listener for when page changes
+//  window.addEventListener('load', function () {
+//    checkPath();
+//  });
+//  not working fix later
 
 
 })();
