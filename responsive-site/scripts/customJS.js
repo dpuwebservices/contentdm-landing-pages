@@ -18,11 +18,9 @@ function checkPath(){
 (function() {
   
   // need to add listener for when page changes
-  window.addEventListener('load', function () {
+  document.addEventListener("DOMContentLoaded", function () {
     checkPath();
   });
-  
-
 
 })();
 
