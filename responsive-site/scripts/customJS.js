@@ -15,14 +15,23 @@ function checkPath(){
   }
 }
 
+
+
+function locationHashChanged() {
+  if (location.hash === '#cool-feature') {
+    console.log("You're visiting a cool feature!");
+  }
+  else{
+    console.log("you're somewhere else");
+  }
+}
+
+
 (function() {
   
   // need to add listener for when page changes
   document.addEventListener("DOMContentLoaded", function () {
     checkPath();
   });
-
+window.onhashchange = locationHashChanged;
 })();
-
-
-
