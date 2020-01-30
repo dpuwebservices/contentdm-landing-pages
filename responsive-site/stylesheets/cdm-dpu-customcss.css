@@ -1,0 +1,231 @@
+/*
+standrad logo name
+/global/images/depaul-tree-logo-white.png
+*/
+/*VARIABLES*/
+/* line 18, ../scss/cdm-dpu-customcss.scss */
+.Breadcrumbs-breadcrumbs {
+  display: flex;
+}
+
+/* line 22, ../scss/cdm-dpu-customcss.scss */
+body, html {
+  font-family: "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;
+  color: #545454;
+  font-style: normal;
+}
+
+/* line 28, ../scss/cdm-dpu-customcss.scss */
+body,
+p,
+ul,
+ol,
+dl,
+div {
+  font-weight: normal;
+  font-size: .75rem;
+}
+
+/* line 38, ../scss/cdm-dpu-customcss.scss */
+h1 {
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #545454;
+  font-style: normal;
+  text-decoration: none;
+}
+
+/* line 46, ../scss/cdm-dpu-customcss.scss */
+h2,
+h2 a,
+h2 a:hover,
+h2 a:visited {
+  font-size: 1.0rem;
+  font-weight: bold;
+  color: #2178B5;
+  font-style: normal;
+  text-decoration: none;
+}
+
+/* line 57, ../scss/cdm-dpu-customcss.scss */
+h3 {
+  font-size: 0.875rem;
+  font-weight: normal;
+  color: #545454;
+  font-style: normal;
+  text-decoration: none;
+}
+
+/* line 66, ../scss/cdm-dpu-customcss.scss */
+a,
+a#filter-by-collection-cancel-button {
+  font-size: .75rem;
+  font-weight: normal;
+  color: #2178B5;
+  font-style: normal;
+  text-decoration: none;
+}
+
+/* line 76, ../scss/cdm-dpu-customcss.scss */
+a:hover,
+a#filter-by-collection-cancel-button {
+  color: #2178B5;
+  text-decoration: underline;
+}
+
+/* line 82, ../scss/cdm-dpu-customcss.scss */
+a:visited,
+a#filter-by-collection-cancel-button {
+  color: #609;
+}
+
+/* line 87, ../scss/cdm-dpu-customcss.scss */
+.search-clear-query-button {
+  color: #cccccc;
+}
+
+/* line 91, ../scss/cdm-dpu-customcss.scss */
+.f-dropdown li a {
+  color: #545454;
+  font-weight: 700;
+}
+
+/* line 96, ../scss/cdm-dpu-customcss.scss */
+.navbar-default {
+  background-color: #132C6A;
+}
+
+/* line 100, ../scss/cdm-dpu-customcss.scss */
+.header-text {
+  color: #ffffff;
+  font-size: 1.125rem;
+}
+
+/* line 105, ../scss/cdm-dpu-customcss.scss */
+.Header-titleText {
+  margin: -20px 0 0 0;
+}
+
+/* line 109, ../scss/cdm-dpu-customcss.scss */
+.cdm-btn.btn-primary,
+.cdm-btn.btn-default:hover {
+  background-color: #2178B5;
+  color: #ffffff;
+}
+
+/* line 115, ../scss/cdm-dpu-customcss.scss */
+.cdm-btn {
+  font-size: .75rem;
+  font-weight: normal;
+}
+
+/* line 121, ../scss/cdm-dpu-customcss.scss */
+.cdm-btn.btn-primary:focus,
+.cdm-btn.btn-primary:hover,
+.cdm-btn.btn-primary:active,
+.cdm-btn.btn-primary:active:focus,
+.cdm-btn.btn-primary:active:hover {
+  background-color: #cccccc;
+  color: #545454;
+}
+
+/* line 130, ../scss/cdm-dpu-customcss.scss */
+.headerIconButton:active:hover,
+.headerIconButton:active:focus,
+.headerIconButton:hover,
+.headerIconButton:focus,
+.headerIconButton:active:hover a,
+.headerIconButton:active:focus a,
+.headerIconButton:hover a,
+.headerIconButton:focus a,
+.open.dropdown > .headerIconButton a,
+.open.dropdown > .headerIconButton,
+.open > .dropdown-toggle.headerIconButton:focus,
+.open > .dropdown-toggle.headerIconButton:hover {
+  color: #132C6A;
+  background-color: #f5f5f5;
+}
+
+/* line 146, ../scss/cdm-dpu-customcss.scss */
+.cdm-footer a:visited {
+  color: #2178B5;
+}
+
+/* line 150, ../scss/cdm-dpu-customcss.scss */
+.cdm-footer a:hover {
+  color: #2178B5;
+}
+
+/* line 154, ../scss/cdm-dpu-customcss.scss */
+a.headerIcon,
+a.SimpleSearch-headerAdvancedSearchButtonLink:visited,
+a.SimpleSearch-headerAdvancedSearchButtonLink {
+  color: #f5f5f5;
+}
+
+/* line 160, ../scss/cdm-dpu-customcss.scss */
+.pagination > .active > a,
+.pagination > .active > a:hover,
+.pagination > li > a:hover,
+.cdm-toggle-btn.active,
+.cdm-toggle-btn.active:hover,
+.cdm-toggle-btn.btn-default:hover,
+.cdm-toggle-btn.btn-default:focus {
+  color: #ffffff;
+  background-color: #2178B5;
+}
+
+/*Add horizontal menu for desktop site -- from OCLC cookbook*/
+@media screen and (min-width: 768px) {
+  /* line 175, ../scss/cdm-dpu-customcss.scss */
+  .Header-headerContainer.navbar-default {
+    background: #132C6A url("https://files.dpulibrary.org/contentDM/background-image.png") repeat-x top left;
+  }
+
+  /* line 179, ../scss/cdm-dpu-customcss.scss */
+  .Header-logoImage {
+    margin-top: 10px !important;
+    height: 80px;
+    width: auto;
+  }
+
+  /* line 185, ../scss/cdm-dpu-customcss.scss */
+  .Header-controls {
+    width: 100%;
+    position: static;
+  }
+
+  /* line 190, ../scss/cdm-dpu-customcss.scss */
+  .Header-hamburgerHolder {
+    float: left;
+  }
+
+  /* line 194, ../scss/cdm-dpu-customcss.scss */
+  .Header-hamburgerHolder .btn-group button {
+    display: none;
+  }
+
+  /* line 198, ../scss/cdm-dpu-customcss.scss */
+  .Header-headerMenuLinks {
+    position: static;
+    display: flex;
+    flex-wrap: nowrap;
+    border: none;
+    box-shadow: none;
+    background: none !important;
+  }
+  /* line 206, ../scss/cdm-dpu-customcss.scss */
+  .Header-headerMenuLinks li a, .Header-headerMenuLinks h3 {
+    color: white;
+  }
+
+  /* line 213, ../scss/cdm-dpu-customcss.scss */
+  .Header-headerMenuLinks h3 {
+    margin: 5px;
+  }
+
+  /* line 217, ../scss/cdm-dpu-customcss.scss */
+  .Header-headerMenuLinks a {
+    background: none !important;
+  }
+}
