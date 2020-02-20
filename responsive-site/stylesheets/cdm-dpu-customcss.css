@@ -179,7 +179,7 @@ a.SimpleSearch-headerAdvancedSearchButtonLink {
 @media screen and (min-width: 768px) {
   /* line 175, ../scss/cdm-dpu-customcss.scss */
   .Header-headerContainer.navbar-default {
-    background: #132C6A url("https://files.dpulibrary.org/contentDM/background-image.png") repeat-x top left;
+    background: #132C6A url("https://files.dpulibrary.org/contentDM/background-image.png") repeat top left;
   }
 
   /* line 179, ../scss/cdm-dpu-customcss.scss */
