@@ -1,30 +1,12 @@
-'use strict';
-
-
-
-function checkPath(){
-  var curPath=window.location.pathname; 
-    var searchBox = document.getElementById('search-input');
-  
-  if (curPath.endsWith('digital/')==true){
-//    alert("on the home page");
-    searchBox.setAttribute("placeholder", "Search all collections");
-  }
-  else{
-    searchBox.setAttribute("placeholder", "Search this collection");
-  }
-}
-
 (function() {
-  
-//  // need to add listener for when page changes
-//  window.addEventListener('load', function () {
-//    checkPath();
-//  });
-//  not working fix later
+  'use strict';
+// Move the collection browse button to just underneath the title
+  document.addEventListener('cdm-collection-landing-page:ready', function(e){
+    var pageContainer = document.getElementsByClassName('CollectionLanding-maincontentLanding')[0];
+    var browseButton = document.getElementsByClassName('text-center')[0];
+    var pageTitle = document.getElementsByClassName('CollectionLanding-aboutCollection')[0];
 
+    pageContainer.insertBefore(browseButton,pageTitle.nextSibling);
+  });
 
 })();
-
-
-
