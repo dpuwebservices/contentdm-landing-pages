@@ -3,10 +3,11 @@
   
     function changeLogoLink() {
     const headerLogo = document.querySelector('div.Header-logoHolder>div>a');
+    const newUrl = 'https://library.depaul.edu/Pages/default.aspx';
     if (headerLogo) {
       headerLogo.href = newUrl;
       headerLogo.addEventListener('click', function(e) {
-        window.open("https://library.depaul.edu/Pages/default.aspx", "_blank");
+        this.href = newUrl;
         e.stopPropagation();
       });
     }
