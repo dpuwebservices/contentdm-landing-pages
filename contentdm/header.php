@@ -39,7 +39,7 @@ if( $.cookie('alert') == null ) {
 
 <link rel="stylesheet" type="text/css" href="css/bento.css" />
 
-
+<meta http-equiv="Refresh" content="10; url=//library.depaul.edu/special-collections/digital-collections/Pages/default.aspx" />
 
 </head>
 
@@ -51,11 +51,13 @@ if( $.cookie('alert') == null ) {
 
 <body>
 
-<!--<div id="alert">
+<div id="alert">
 
-    <a class="alert" href="#alert">Most of the Digital Collections will be unavailable on January 14th from 2AM to 2:30AM (CST) during scheduled server maintenance. Our apologies for any inconvenience.</a>
+    <a class="alert" href="#alert">ALL PAGES ON THIS SITE HAVE MOVED. PLEASE BOOKMARK THE FOLLOWING PAGE FOR CURRENT PAGES AND INFORMATION: <br />
+	https://library.depaul.edu/special-collections/digital-collections/Pages/default.aspx<br />
+	Your browser will take you to the above page in 10 seconds.</a>
 
-</div>-->
+</div>
 <script>
 				/* alert message internet explorer start*/
 if (navigator.appName == 'Microsoft Internet Explorer'){

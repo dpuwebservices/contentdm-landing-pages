@@ -1,4 +1,6 @@
-<!DOCTYPE html><head>
+<?php header("Location: http://digicol.lib.depaul.edu/digital/collection/p16106coll11"); ?>
+
+<!--<!DOCTYPE html><head>
 
 
 
@@ -66,7 +68,7 @@
 
 
 
-    <!-- Grid 1/2 --> 
+     Grid 1/2  
 
 
 
@@ -98,7 +100,7 @@
 
 
 
-                <!-- Grid 2/3 and 1/3--> 
+                 Grid 2/3 and 1/3 
 
 
 
@@ -106,7 +108,7 @@
 
 
 
-                <!-- Grid 1/3 -->  
+                 Grid 1/3   
 
 
 
@@ -142,7 +144,7 @@
 
 
 
-            </div> <!-- end bento -->   
+            </div>  end bento    
 
 
 
@@ -158,7 +160,7 @@
 
 
 
-            <!-- about section--> 
+             about section 
 
 
 
@@ -283,4 +285,4 @@
 
 
 
-
+-->
